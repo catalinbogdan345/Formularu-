@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form class="formular">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+        <div class="name-section">
+            <div class="first-name-div">
+                <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name"/>
+            </div>
+            <div class="last-name-div">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name" />
+            </div>
+        </div>
+        <label for="location">Location<p class="location-tooltip">This is only visible to community admins</p></label>
+        <select name="countries" id="countries-continents">
+            <optgroup label="USA">
+              <option value="new-york">New York</option>
+              <option value="Georgia">Georgia</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="Romania">Romania</option>
+              <option value="England">England</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+            </optgroup>
+            <optgroup label="Africa">
+                <option value="Egypt">Egypt</option>
+                <option value="Congo">Congo</option>
+            </optgroup>
+          </select>
+        <label for="linkedin">Linkedin</label>
+        <input type="url" name="linkedin" placeholder="https//:www.linkedin.com/in/aA">
+    </form>
+
+    <div class="card">
+        <div class="card-name">
+            <p class="first-name-text"></p>
+            <p class="last-name-text"></p>
+        </div>
+        <div class="card-email">
+            <p class="card-email-text"></p>
+        </div>
+        <p class="location-text"></p>
+        <p class="linkedin-text"></p>
+    </div>
+</div> 
+    <script src="./script.js"></script>
+</body>
+</html>

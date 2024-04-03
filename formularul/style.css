@@ -1,0 +1,52 @@
+.formular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    text-align: left;
+    gap: 10px;
+    width: 50%;
+
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+.name-section{
+display: flex;
+justify-content: space-between;
+}
+.first-name, .last-name{
+    width: 40%;
+}
+.first-name-div , .last-name-div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+}
+body{
+    width: 80%;
+}
+.location-tooltip{
+    color: grey;
+}
+.card{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+}
+.card-name{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+p{
+    margin: 0;
+}
